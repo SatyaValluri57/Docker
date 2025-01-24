@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #f7b731; /* A warm color for the brand name */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Categories Section */
+.categories {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+}
+
+.category-block {
+    width: 30%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.category-block:hover {
+    transform: scale(1.05);
+}
+
+.category-image {
+    width: 100%;
+    max-width: 250px;
+    border-radius: 8px;
+}
+
+.category-block h2 {
+    margin: 15px 0;
+    font-size: 22px;
+    color: #333;
+}
+
+.category-block p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
