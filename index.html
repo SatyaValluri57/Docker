@@ -3,108 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Product Sales Page</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-        header h1 {
-            margin: 0;
-        }
-        .container {
-            width: 80%;
-            margin: 0 auto;
-            overflow: hidden;
-        }
-        .product {
-            display: inline-block;
-            width: 30%;
-            margin: 20px 1%;
-            padding: 20px;
-            background-color: white;
-            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
-            text-align: center;
-        }
-        .product img {
-            width: 100%;
-            height: auto;
-        }
-        .product h3 {
-            margin: 20px 0;
-        }
-        .price {
-            font-size: 1.5em;
-            color: #e74c3c;
-            margin: 10px 0;
-        }
-        .buy-button {
-            background-color: #27ae60;
-            color: white;
-            padding: 10px 20px;
-            border: none;
-            cursor: pointer;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            font-weight: bold;
-        }
-        .buy-button:hover {
-            background-color: #2ecc71;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 20px;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
-    </style>
+    <title>Currypack - Food Delivery</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Our Online Store</h1>
-        <p>Your one-stop shop for amazing products</p>
+        <div class="logo">
+            <h1>Currypack</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Orders</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <div class="container">
-        <div class="product">
-            <img src="https://via.placeholder.com/300x200" alt="Product 1">
-            <h3>Product 1</h3>
-            <p>This is a short description of Product 1. It is high-quality and reliable!</p>
-            <p class="price">$29.99</p>
-            <button class="buy-button">Buy Now</button>
+    <section class="categories">
+        <div class="category-block veg">
+            <img src="veg.png" alt="Veg" class="category-image">
+            <h2>Veg</h2>
+            <p>Delicious vegetarian options for every taste.</p>
         </div>
 
-        <div class="product">
-            <img src="https://via.placeholder.com/300x200" alt="Product 2">
-            <h3>Product 2</h3>
-            <p>This is a short description of Product 2. Don’t miss out on this great deal!</p>
-            <p class="price">$49.99</p>
-            <button class="buy-button">Buy Now</button>
+        <div class="category-block non-veg">
+            <img src="non-veg.png" alt="Non-Veg" class="category-image">
+            <h2>Non-Veg</h2>
+            <p>Juicy, mouth-watering non-vegetarian dishes.</p>
         </div>
 
-        <div class="product">
-            <img src="https://via.placeholder.com/300x200" alt="Product 3">
-            <h3>Product 3</h3>
-            <p>This is a short description of Product 3. Get yours today at a special price!</p>
-            <p class="price">$99.99</p>
-            <button class="buy-button">Buy Now</button>
+        <div class="category-block favorites">
+            <img src="favorites.png" alt="Personal Favorites" class="category-image">
+            <h2>Personal Favorites</h2>
+            <p>Handpicked items you'll absolutely love!</p>
         </div>
-    </div>
+    </section>
 
     <footer>
-        <p>&copy; 2025 Your Company. All Rights Reserved.</p>
+        <p>&copy; 2025 Currypack - All Rights Reserved.</p>
     </footer>
 </body>
 </html>
