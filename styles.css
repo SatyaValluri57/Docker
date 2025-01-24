@@ -45,14 +45,14 @@ nav ul li a:hover {
 .promo-banner {
     text-align: center;
     padding: 30px 0;
-    background-color: #f7b731; /* A warm yellow background */
+    background-color: orange; /* Orange background */
 }
 
 .promo-heading {
     font-size: 36px;
     font-weight: bold;
     text-transform: uppercase; /* Makes the text uppercase */
-    color: #fff;
+    color: black; /* Black color for the heading */
     margin: 0;
 }
 
